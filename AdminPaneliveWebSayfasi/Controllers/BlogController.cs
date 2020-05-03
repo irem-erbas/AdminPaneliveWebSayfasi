@@ -121,7 +121,7 @@ namespace AdminPaneliveWebSayfasi.Controllers
             db.Blog.Remove(b);
             db.SaveChanges();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index"); 
         }
     }
 }
